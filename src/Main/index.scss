@@ -1,0 +1,33 @@
+@import "../styles/colors.scss";
+
+.main {
+    padding: 57px 27px;
+    color: $color-white;
+    background-image: url(../../public/Images/bg-logo.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+
+        &__title {
+            margin: 0;
+            font-size: 39px;
+            letter-spacing: -0.05em;
+        }
+
+        &__facts {
+            max-width: 400px;
+            margin-top: 46px;
+
+            & > li {
+                padding-block: 10px;   
+            }
+
+            & > li::marker {
+                font-size: 1.4rem;
+                color: $color-blue;
+            }
+        }
+}
+
+
+
+

@@ -1,0 +1,32 @@
+@import "../styles/colors.scss";
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 30px 25px;
+    background-color: $color-dark-blue;
+        
+        &__icon--text {
+            margin-right: auto;
+            color: $color-blue;
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        &__title {
+            color: $color-white;
+            font-weight: 600;
+        }
+        
+        &__icon {
+            width: 30px;
+            margin-right: 7px;
+        }
+}
+
+
+
+
+
+
